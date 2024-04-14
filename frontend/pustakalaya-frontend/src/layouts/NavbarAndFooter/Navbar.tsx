@@ -8,7 +8,6 @@ export const Navbar = () => {
                     aria-label='Toggle Navigation'
                 >
                     <span className='navbar-toggler-icon'></span>
-
                 </button>
                 <div className='collapse navbar-collapse' id='navbarNavDropdown'>
                     <ul className='navbar-nav'>
@@ -22,10 +21,8 @@ export const Navbar = () => {
                     <ul className='navbar-nav ms-auto'>
                         <li className='nav-item m-1'>
                             <a type='button' className='btn btn-outline-light' href="#">Sign in</a>
-
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
