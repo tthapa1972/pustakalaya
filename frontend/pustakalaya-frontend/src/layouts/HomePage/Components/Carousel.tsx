@@ -39,14 +39,11 @@ export const Carousel = () => {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
-
                 {/* Mobile*/}
-
                 <div className="d-lg-none mt-3">
                     <div className="row d-flex justify-content-center align-items-center"></div>
                     <ReturnBook />
                 </div>
-
             </div>
             <div className="homepage-carousel-title mt-3">
                 <a className="btn btn-outline-secondary btn-lg" href="#">View More</a>
