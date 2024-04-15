@@ -5,9 +5,7 @@ export const SpinnerLoading = () => {
                 <span className="visually-hidden">
                     Loading....
                 </span>
-
             </div>
-
         </div>
     )
 }
