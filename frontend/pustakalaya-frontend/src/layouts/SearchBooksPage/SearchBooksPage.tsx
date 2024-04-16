@@ -27,7 +27,6 @@ export const SearchBooksPage = () => {
                 url = baseUrl + searchUrl;
             }
 
-
             const response = await fetch(url);
 
             if (!response.ok) {
