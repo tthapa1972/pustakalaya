@@ -15,7 +15,7 @@ export const SearchBooksPage = () => {
 
     useEffect(() => {
         const fetchBooks = async () => {
-
+            
             const baseUrl: string = "http://localhost:8080/api/books";
             const url: string = `${baseUrl}?page=${currentPage - 1}&size=${booksPerPage}`;
             const response = await fetch(url);
