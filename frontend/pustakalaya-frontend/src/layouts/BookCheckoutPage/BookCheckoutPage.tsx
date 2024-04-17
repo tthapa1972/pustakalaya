@@ -11,7 +11,7 @@ export const BookCheckOutPage = () => {
     const [httpError, setHttpError] = useState(null);
 
     const bookId = (window.location.pathname).split('/')[2];
-
+    
     useEffect( () => {
         const fetchBooks = async () => {
 
