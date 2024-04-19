@@ -19,8 +19,8 @@ export const BookCheckOutPage = () => {
 
     const bookId = (window.location.pathname).split('/')[2];
 
-
     
+    //fetch reviews 
     useEffect( () => {
         const fetchBooks = async () => {
 
