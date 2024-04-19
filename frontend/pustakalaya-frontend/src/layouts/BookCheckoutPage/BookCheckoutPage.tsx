@@ -19,9 +19,9 @@ export const BookCheckOutPage = () => {
 
     const bookId = (window.location.pathname).split('/')[2];
 
-    console.log(bookId);
 
-    useEffect(() => {
+    
+    useEffect( () => {
         const fetchBooks = async () => {
 
             const baseUrl: string = `http://localhost:8080/api/books/${bookId}`;
