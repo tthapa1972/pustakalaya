@@ -3,7 +3,7 @@ import { useOktaAuth } from "@okta/okta-react";
 import { SpinnerLoading } from "../Utils/SpinnerLoading";
 
 export const Navbar = () => {
-
+    
     const { oktaAuth,authState } = useOktaAuth();
 
     if(!authState){
