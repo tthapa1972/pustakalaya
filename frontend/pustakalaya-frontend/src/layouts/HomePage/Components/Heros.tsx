@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Heros = () => {
 
     const { authState } = useOktaAuth();
-
+    
     return (
         <div>
             <div className='d-none d-lg-block'>
