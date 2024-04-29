@@ -24,7 +24,7 @@ public class SecurityConfiguration {
 
         //protect endpoints at /api/<type>/secure
         http.authorizeHttpRequests((authorize) -> authorize
-                .requestMatchers("/api/books/secure/**").authenticated()
+                .requestMatchers("/api/books/secure/**", "/api/reviews/secure/**").authenticated()
         ).oauth2ResourceServer((oauth2) -> oauth2.jwt(Customizer.withDefaults()));
 
         //Add CORS filters

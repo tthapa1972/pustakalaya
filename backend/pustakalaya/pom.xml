@@ -18,11 +18,11 @@
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.okta.spring/okta-spring-boot-starter -->
-		<!--dependency>
+		<dependency>
 			<groupId>com.okta.spring</groupId>
 			<artifactId>okta-spring-boot-starter</artifactId>
 			<version>2.1.6</version>
-		</dependency-->
+		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
