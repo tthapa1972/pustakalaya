@@ -9,7 +9,7 @@ import { useOktaAuth } from "@okta/okta-react";
 import { error } from "console";
 
 export const BookCheckOutPage = () => {
-
+    
     const { authState } = useOktaAuth();
 
     const [book, setBook] = useState<BookModel>();
