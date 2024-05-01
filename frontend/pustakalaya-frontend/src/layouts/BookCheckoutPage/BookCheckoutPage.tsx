@@ -10,7 +10,7 @@ import { error } from "console";
 import ReviewRequestModel from "../../models/ReviewRequestModel";
 
 export const BookCheckOutPage = () => {
-
+    
     const { authState } = useOktaAuth();
 
     const [book, setBook] = useState<BookModel>();
