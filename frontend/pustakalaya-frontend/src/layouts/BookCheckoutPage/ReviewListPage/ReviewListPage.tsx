@@ -5,7 +5,7 @@ import { Review } from "../../Utils/Review";
 import { Pagination } from "../../Utils/Pagination";
 
 export const ReviewListPage = () => {
-
+    
     const [reviews, setReviews] = useState<ReviewModel[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [httpError, setHttpError] = useState(null);
